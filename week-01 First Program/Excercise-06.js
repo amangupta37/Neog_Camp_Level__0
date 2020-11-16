@@ -9,5 +9,9 @@ if(userhometown == "RANCHI"||"Ranchi"||"ranchi")
 {
     score+=10;
 }
+else
+{
+    score=0;
+}
 
 console.log("Your Score is : " + score);
